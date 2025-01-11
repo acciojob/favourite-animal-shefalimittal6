@@ -1,16 +1,56 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Animal</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Navigation Bar -->
+    <nav role="navigation" aria-label="Main Navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
+    <!-- Main Content -->
+    <main>
+        <!-- Heading -->
+        <h1 role="heading" aria-level="1">Welcome to My Portfolio</h1>
+
+        <!-- Image of Favorite Animal -->
+        <section id="favorite-animal">
+            <h2 role="heading" aria-level="2">My Favorite Animal</h2>
+            <img role="img" src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Giant_Panda_in_Beijing_Zoo_1.JPG" alt="A giant panda sitting and eating bamboo" />
+        </section>
+
+        <!-- Brief Description -->
+        <section id="about">
+            <h2 role="heading" aria-level="2">About Me</h2>
+            <p>I am Shefali Mittal, a passionate developer with a focus on creating accessible and user-friendly web experiences. Here you will find my recent projects and ways to get in touch.</p>
+        </section>
+
+        <!-- Projects List -->
+        <section id="projects">
+            <h2 role="heading" aria-level="2">Projects</h2>
+            <ul role="list">
+                <li role="listitem">Project 1: Web Accessibility Enhancements</li>
+                <li role="listitem">Project 2: Responsive Portfolio</li>
+                <li role="listitem">Project 3: E-Commerce Checkout System</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 role="heading" aria-level="2">Contact Me</h2>
+            <p>Feel free to reach out via email at <a href="mailto:shefali@example.com">shefali@example.com</a>.</p>
+        </section>
+    </main>
 </body>
 
 </html>
